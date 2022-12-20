@@ -3,7 +3,7 @@
 A projekt egy rfid beléptető rendszer tervezése, aminél tudunk regisztrálni különböző felhasználókat vagy már meglévőket is tudjunk vele törölni. A rendszer képes felismerni a már regisztrált felhasználókat majd üdvözli őket az ismeretlenekről pedig képet készít.
 ### Kódok
 #### Arduino kód
-Includoljuk a szükséges header yyyyyyyyyyyyyyyy SPI.h és MFRC522.h majd definiáljuk az általunk használt pin eket.
+Includoljuk a szükséges header file-okat SPI.h és MFRC522.h majd definiáljuk az általunk használt pin eket.
 Változók
 - int readsuccess
 -	byte readcard[4]
